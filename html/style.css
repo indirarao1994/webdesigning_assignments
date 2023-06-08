@@ -1,4 +1,10 @@
-h1 {
+.heading {
     color: green;
-    padding: 20px;
-} 
+    margin-left: 100px;
+    background-color: blue;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 100;
+    } 
+#head1{
+    color: rgb(202, 63, 110);
+}

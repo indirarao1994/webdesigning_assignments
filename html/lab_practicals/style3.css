@@ -1,0 +1,28 @@
+.details
+{
+    width : 600px;
+    height : 450px;
+    border: 10px solid red ;
+    margin-top: 50px;
+    margin-left: 50px;
+    text-align: center;
+    padding-top: 50px;
+    
+}
+.ad{
+    width : 290px;
+    height: 160px;
+}
+#p1{
+    margin-left: 80px;
+}
+#p2{
+    padding-top: 10px;
+    margin-left: 80px;
+    
+}
+.d{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: blueviolet;
+    text-shadow: 0cqmax;
+}

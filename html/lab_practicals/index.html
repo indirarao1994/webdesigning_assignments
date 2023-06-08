@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Recipe Finder</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <h1>Recipe Finder</h1>
+  <div class="search-container">
+    <input type="text" id="searchInput" placeholder="Enter ingredients or cuisine">
+    <button id="searchBtn">Search</button>
+    <select id="dietSelect">
+      <option value="">All</option>
+      <option value="vegan">Vegan</option>
+      <option value="vegetarian">Vegetarian</option>
+      <option value="paleo">Paleo</option>
+    </select>
+    <input type="number" id="cookingTimeInput" placeholder="Max Cooking Time (minutes)">
+  </div>
+  <div id="results"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>

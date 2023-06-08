@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>XML Data Parsing Sample</title>
+</head>
+<body>
+    <h1>XML Data Parsing Sample</h1>
+    <button onclick="parseXML()">Parse XML</button>
+    <div id="output"></div>
+    
+    <script>
+        function parseXML() {
+            // XML data
+            var xmlData = `
+                <employees>
+                    <employee>
+                        <name>John Doe</name>
+                        <designation>Software Engineer</designation>
+                        <salary>50000</salary>
+                    </employee>
+                    <employee>
+                        <name>Jane Smith</name>
+                        <designation>Web Developer</designation>
+                        <salary>45000</salary>
+                    </employee>
+                </employees>
+            `;
+            
+            // Create XML DOM parser
+            var parser = new DOMParser();
+            var xmlDoc = parser.parseFromString(xmlData, "text/xml");
+            
+            // Extract and display data
+            var output = "";
+            var employees = xmlDoc.getElementsByTagName("employee");
+            for (var i = 0; i < employees.length; i++) {
+                var name = employees[i].getElementsByTagName("name")[0].textContent;
+                var designation = employees[i].getElementsByTagName("designation")[0].textContent;
+                var salary = employees[i].getElementsByTagName("salary")[0].textContent;
+                
+                output += "Name: " + name + "<br>";
+                output += "Designation: " + designation + "<br>";
+                output += "Salary: " + salary + "<br><br>";
+            }
+            
+            // Display parsed data
+            document.getElementById("output").innerHTML = output;
+        }
+    </script>
+</body>
+</html>
+
+
+
+
+
+

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Book Catalog</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="book-list">
+    <div class="book" onclick= "openBook('books/book1.pdf')">
+      <img src="https://1.bp.blogspot.com/-9FOXGnjvuWw/VWC30TM8PoI/AAAAAAAAAJY/MfRkAqnuLo0/s1600/one.jpg" alt="Book 1">
+    </div>
+    <div class="book" onclick="openBook('books/book2.pdf')">
+      <img src="https://codingclub.tech/static/images/course/coding-mafia.png" alt="Book 2">
+    </div>
+    <div class="book" onclick="openBook('books/book3.pdf')">
+      <img src="https://i0.wp.com/www.socialnews.xyz/wp-content/uploads/2019/10/11/223804f048f6ce80f12a3422685569d6.jpg?quality=90&zoom=1&ssl=1" alt="Book 3">
+    </div>
+  </div>
+
+  <div id="pdfViewer"></div>
+
+  <script src="app.js"></script>
+</body>
+</html>

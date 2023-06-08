@@ -1,0 +1,50 @@
+.wrapper{
+    width : 1300px;
+    height : 750px;
+    border: 10px dotted red ;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-left: 100px;
+}
+.box{
+    width : 400px;
+    height : 300px;
+    border: 3px solid rgb(36, 4, 112);
+    text-align:center;
+    font-size: 5;
+}
+#boxtopLeft{
+    float:left ;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+#boxtopRight{
+    float: right ;
+    margin-right: 50px;
+    
+    margin-top: 50px;
+}
+#boxbottomleft{
+    float:left ;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+#boxbottomRight{
+    float: right ;
+    margin-top: 50px;
+    margin-right: 50px;
+}
+.course{
+    height: 280px;
+    width:380px;
+    align-content: space-evenly;
+    box-shadow:antiquewhite;
+    -webkit-transition-property: all; 
+    -webkit-transition-duration: 0.5s; 
+    -webkit-transition-timing-function: ease; 
+    
+}
+.course:hover
+{
+    transform: scale(2); 
+}

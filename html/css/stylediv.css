@@ -1,0 +1,49 @@
+header{
+    height: 100;
+    padding-top: 10px;
+    border: 5px;
+    border-color: black;
+    background-color: green;
+    font-size: 40px;
+    text-align: center;
+}
+section{
+    width : 800px;
+    height : 500px;
+    border: 3px;
+    float: left;
+    margin-top: 40px;
+    border-color: rgb(47, 2, 99);
+    text-align: justify;
+    font-size: 28px;
+    line-height: 50px;
+}
+.bigbox{
+    width :800px;
+    height: 650px;
+    border: 5px solid rgb(161, 107, 107);
+    border-color: rgb(51, 2, 2);
+    float: right;
+    margin-top: 10px;
+    border-radius: 50px 0px 50px 0px;
+}
+
+.imgs
+{
+    width :600px;
+    height: 300px;
+    border: 5px dashed;
+    border-color: rgb(3, 94, 66);
+    align-self: auto;
+    
+}
+#topbox{
+    margin-top: 10px;
+   
+    
+}
+#bottombox{
+    margin-top: 10px;
+    padding-left: 10px;
+    
+}

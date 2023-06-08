@@ -1,0 +1,16 @@
+.book-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .book {
+    margin: 20px;
+    cursor: pointer;
+  }
+  
+  #pdfViewer {
+    width: 100%;
+    height: 600px;
+  }
+  
